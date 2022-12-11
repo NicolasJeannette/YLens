@@ -35,6 +35,7 @@ namespace MSPlayground.Scenarios.Hub
         [SerializeField] string _vrEnvironmentScene;
         [SerializeField] private HubScenario_Base _rescanScenario;
         [SerializeField] private GameObject _turbinePortal;
+        [SerializeField] private GameObject _exper1Portal;
         AudioSource _asaAudioSource;
         
         private GameObject _quitAppPopup = null;
@@ -117,6 +118,9 @@ namespace MSPlayground.Scenarios.Hub
             // place portal along longest wall
             Transform longestWall = VirtualRoom.Walls[0].transform;
             _turbinePortal.transform.SetPositionAndRotation(
+                longestWall.transform.position - longestWall.transform.right * 0.25f - longestWall.transform.forward * 0.10f,
+                longestWall.transform.rotation);
+            _exper1Portal.transform.SetPositionAndRotation(
                 longestWall.transform.position - longestWall.transform.right * 0.5f - longestWall.transform.forward * 0.25f,
                 longestWall.transform.rotation);
 #endif
@@ -125,6 +129,7 @@ namespace MSPlayground.Scenarios.Hub
         void InitializeEnvironment_VR(HubVRRoom vrRoom)
         {
             _turbinePortal.transform.SetPositionAndRotation(vrRoom.TurbinesPortal.transform.position, vrRoom.TurbinesPortal.transform.rotation);
+            _exper1Portal.transform.SetPositionAndRotation(vrRoom.TurbinesPortal.transform.position, vrRoom.TurbinesPortal.transform.rotation);
         }
 
         public GameObject ShowDialog(string panelId, bool rotateToCamera = false)
