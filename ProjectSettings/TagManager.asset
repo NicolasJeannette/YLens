@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bootstrapper
+  - TurbineDock
+  - Turbine
   layers:
   - Default
   - TransparentFX
@@ -33,9 +36,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Robot
+  - VirtualRoom
+  - ARPlanes
   - 
   m_SortingLayers:
   - name: Default
