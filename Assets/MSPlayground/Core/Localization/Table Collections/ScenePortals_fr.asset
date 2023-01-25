@@ -45,5 +45,21 @@ MonoBehaviour:
       et lointaines"
     m_Metadata:
       m_Items: []
+  - m_Id: 96567419271856128
+    m_Localized: Experience Monstres Interactif
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96568835923197952
+    m_Localized: "Int\xE9ragissez avec des monstres venant d'un autre monde.\nRencontrer
+      des dragons, goblin, ogre et d'autres monstres.\nRegarder les prendre vie en
+      R\xE9alit\xE9 Augment\xE9 chez vous."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96568880626089984
+    m_Localized: "Int\xE9ragissez avec des monstres venant d'un autre monde.\nRencontrer
+      des dragons, goblin, ogre et d'autres monstres.\nRegarder les prendre vie en
+      R\xE9alit\xE9 Augment\xE9 chez vous."
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
