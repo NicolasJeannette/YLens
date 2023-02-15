@@ -350,7 +350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1011552054}
   m_Layer: 0
-  m_Name: Experience1ScenePortal
+  m_Name: MonsterScenePortal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,7 +408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4456140014937352709, guid: 5ab8aef109a9b924a954643f881ef8fb, type: 3}
       propertyPath: m_text
-      value: Toucher ou passer pour entrer dans l'experience 1
+      value: "Toucher ou passer pour entrer dans l'exp\xE9rience Monstre"
       objectReference: {fileID: 0}
     - target: {fileID: 4785080071332821566, guid: 5ab8aef109a9b924a954643f881ef8fb, type: 3}
       propertyPath: m_AnchorMax.y
@@ -452,7 +452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8186830247826105480, guid: 5ab8aef109a9b924a954643f881ef8fb, type: 3}
       propertyPath: _targetScene
-      value: Experience 1
+      value: Monster
       objectReference: {fileID: 0}
     - target: {fileID: 8186830247826105481, guid: 5ab8aef109a9b924a954643f881ef8fb, type: 3}
       propertyPath: m_Name
