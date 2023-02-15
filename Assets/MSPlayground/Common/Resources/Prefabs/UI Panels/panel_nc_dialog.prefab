@@ -649,6 +649,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   _manageChildren: 1
 --- !u!114 &1558092997472213234
 MonoBehaviour:
@@ -679,6 +682,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   dataBindingProfiles: []
   materialLookup: []
   renderersToModify:
@@ -1989,6 +1995,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
+    m_PersistentCalls:
+      m_Calls: []
   smoothSelectedness: 1
   distanceSpaceMode: 1
   startPushPlane: -0.003838122
@@ -4206,6 +4218,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
+    m_PersistentCalls:
+      m_Calls: []
   smoothSelectedness: 1
   distanceSpaceMode: 1
   startPushPlane: -0.003838122
@@ -5880,6 +5898,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
+    m_PersistentCalls:
+      m_Calls: []
   smoothSelectedness: 1
   distanceSpaceMode: 1
   startPushPlane: -0.003838122

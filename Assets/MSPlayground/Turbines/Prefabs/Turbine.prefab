@@ -2319,6 +2319,7 @@ MonoBehaviour:
   thisCollider: {fileID: 1493085034516383491}
   attachedRectTransform: {fileID: 656951291443548875}
   padding: {x: 0, y: 0}
+  forceUpdateEveryFrame: 0
 --- !u!114 &6264906849771002462
 MonoBehaviour:
   m_ObjectHideFlags: 0

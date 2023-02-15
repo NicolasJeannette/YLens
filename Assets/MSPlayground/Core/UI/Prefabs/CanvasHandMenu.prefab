@@ -76,6 +76,7 @@ MonoBehaviour:
   radius: 16
   thickness: 2
   wedges: 8
+  calculateSmoothEdges: 1
 --- !u!114 &1852185013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -786,6 +787,7 @@ MonoBehaviour:
   thisCollider: {fileID: 767799376691165700}
   attachedRectTransform: {fileID: 767799376691165696}
   padding: {x: 0, y: 0}
+  forceUpdateEveryFrame: 0
 --- !u!114 &767799376691165698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1637,6 +1639,7 @@ MonoBehaviour:
   thisCollider: {fileID: 8644895856662135294}
   attachedRectTransform: {fileID: 7371502422911780785}
   padding: {x: 0, y: 0}
+  forceUpdateEveryFrame: 0
 --- !u!95 &1931657431164127909
 Animator:
   serializedVersion: 3
@@ -2788,6 +2791,7 @@ MonoBehaviour:
   thisCollider: {fileID: 2538676837586794500}
   attachedRectTransform: {fileID: 5152577697076455498}
   padding: {x: 0, y: 0}
+  forceUpdateEveryFrame: 0
 --- !u!95 &5490798674936623767
 Animator:
   serializedVersion: 3
@@ -3169,6 +3173,7 @@ MonoBehaviour:
   radius: 4.1
   thickness: 2
   wedges: 8
+  calculateSmoothEdges: 1
 --- !u!114 &1961472899640095883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3283,6 +3288,7 @@ MonoBehaviour:
   radius: 11
   thickness: 2
   wedges: 8
+  calculateSmoothEdges: 1
 --- !u!114 &662344231597946333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3599,6 +3605,7 @@ MonoBehaviour:
   radius: 11
   thickness: 2
   wedges: 8
+  calculateSmoothEdges: 1
 --- !u!114 &3288329003103812602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4448,6 +4455,7 @@ MonoBehaviour:
   radius: 4.1
   thickness: 2
   wedges: 8
+  calculateSmoothEdges: 1
 --- !u!114 &541940472652677800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4805,6 +4813,7 @@ MonoBehaviour:
   radius: 16
   thickness: 2
   wedges: 8
+  calculateSmoothEdges: 1
 --- !u!114 &3304459878828770452
 MonoBehaviour:
   m_ObjectHideFlags: 0

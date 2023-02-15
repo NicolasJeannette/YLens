@@ -46,8 +46,8 @@ MonoBehaviour:
   renderers:
   - {fileID: 80156195811743319}
   clippingSide: 1
-  useOnPreRender: 0
   applyToSharedMaterial: 0
+  useOnPreRender: 0
 --- !u!1 &753944080503481077
 GameObject:
   m_ObjectHideFlags: 0

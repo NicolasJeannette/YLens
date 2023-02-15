@@ -1119,6 +1119,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
+    m_PersistentCalls:
+      m_Calls: []
   smoothSelectedness: 1
   distanceSpaceMode: 1
   startPushPlane: -0.003838122
@@ -2851,6 +2857,7 @@ MonoBehaviour:
   radius: 11
   thickness: 2
   wedges: 8
+  calculateSmoothEdges: 1
 --- !u!114 &2096222267945979504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3405,6 +3412,7 @@ MonoBehaviour:
   proximityType: 3
   executionOrder: 0
   faceAway: 1
+  gravityAlign: 0
 --- !u!114 &8014285700255607818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3586,6 +3594,12 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   onClicked:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 590883427097002585}
@@ -3979,6 +3993,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
+    m_PersistentCalls:
+      m_Calls: []
   smoothSelectedness: 1
   distanceSpaceMode: 1
   startPushPlane: -0.003838122

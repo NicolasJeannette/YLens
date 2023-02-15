@@ -339,6 +339,9 @@ MonoBehaviour:
   dataSourceTypes:
   - data
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   dataBindingProfiles:
   - dataKeyPath: PowerStatusColor
     themeKeyPath: 
@@ -364,6 +367,9 @@ MonoBehaviour:
   dataSourceTypes:
   - data
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   dataBindingProfiles:
   - dataKeyPath: PowerStatusGlowColor
     themeKeyPath: 
@@ -402,6 +408,9 @@ MonoBehaviour:
   dataSourceTypes:
   - data
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   dataBindingProfiles:
   - dataKeyPath: AvailablePowerStatusColor
     themeKeyPath: 
@@ -1460,6 +1469,12 @@ MonoBehaviour:
   onClicked:
     m_PersistentCalls:
       m_Calls: []
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
+    m_PersistentCalls:
+      m_Calls: []
   _radius: 0.026
   _startDegree: -130.08379
   _deltaDegree: 260.1399
@@ -1704,6 +1719,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   _manageChildren: 1
 --- !u!1 &7158787332125106240
 GameObject:

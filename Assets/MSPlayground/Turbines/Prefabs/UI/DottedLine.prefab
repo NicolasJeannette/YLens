@@ -159,6 +159,7 @@ MonoBehaviour:
   _controlPoint2: {fileID: 0}
   _end: {fileID: 0}
   _executeOnUpdate: 1
+  _vrLineMaterial: {fileID: 0}
 --- !u!114 &5197386013786427377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac347b44dbf89434db0f01543e6dffa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _debug: 1
   _duration: 0.3
   _delay: 0.3
   _curve:
@@ -206,3 +206,5 @@ MonoBehaviour:
   _from: 0
   _to: 1
   _target: {fileID: 3618241966169477564}
+  _colorProperty: _Color
+  _useMaterialPropertyBlock: 0

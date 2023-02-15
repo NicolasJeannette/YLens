@@ -294,6 +294,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   dataBindingProfiles:
   - dataKeyPath: MatsCanvas.InnerPlateMaterial
     themeKeyPath: 
@@ -330,6 +333,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   _manageChildren: 1
 --- !u!114 &3406192785309174550
 MonoBehaviour:

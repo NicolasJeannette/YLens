@@ -140,6 +140,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -461,6 +462,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -485,6 +487,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1196094325225158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,8 +1060,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555164223322086}
-  m_LocalRotation: {x: -0.000000029728369, y: -0.0000000059688112, z: -0.5897144,
-    w: 0.80761194}
+  m_LocalRotation: {x: -0.000000029728369, y: -0.0000000059688112, z: -0.5897144, w: 0.80761194}
   m_LocalPosition: {x: -0.12532571, y: 0.0000000667572, z: -0.000000038146972}
   m_LocalScale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
   m_Children:

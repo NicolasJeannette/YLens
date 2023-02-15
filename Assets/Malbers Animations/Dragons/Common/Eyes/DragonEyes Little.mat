@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: DragonEyes Little
   m_Shader: {fileID: 4800000, guid: 34d9292a5a8d1564c853af25f970586d, type: 3}
   m_ShaderKeywords: _EMISSION
@@ -112,3 +113,4 @@ Material:
     - _Color1: {r: 1, g: 0.9310346, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _PupilColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

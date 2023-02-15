@@ -71,6 +71,7 @@ MonoBehaviour:
   radius: 11
   thickness: 2
   wedges: 8
+  calculateSmoothEdges: 1
 --- !u!114 &881189952466777568
 MonoBehaviour:
   m_ObjectHideFlags: 0

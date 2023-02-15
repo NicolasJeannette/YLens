@@ -93,7 +93,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5973294913672295668, guid: 9b3f4b850ded0b741a0866ba4ce59f1b, type: 3}
       propertyPath: m_Name
-      value: CanvasSmallButton
+      value: CanvasHandMenuButton
       objectReference: {fileID: 0}
     - target: {fileID: 6798678698166541739, guid: 9b3f4b850ded0b741a0866ba4ce59f1b, type: 3}
       propertyPath: m_text

@@ -15,33 +15,112 @@ MonoBehaviour:
   icon: {fileID: 0}
   title: Data Binding
   sections:
-  - text: "Data binding is the process that establishes a connection between an application's UX (view) and the data being presented (model). Suppose the binding has the correct settings and the data provides the proper notifications; when the data changes its value, the elements bound to the data reflect changes automatically."
+  - heading: 
+    text: Data binding is the process that establishes a connection between an application's
+      UX (view) and the data being presented (model). Suppose the binding has the
+      correct settings and the data provides the proper notifications; when the data
+      changes its value, the elements bound to the data reflect changes automatically.
     linkText: MRTK3 Wiki
     url: https://mixedrealitycloud.visualstudio.com/MRTK/_wiki/wikis/MRTK.wiki/176/Theming-and-databinding
-  - text: "The MRTK data binding framework helps create visual elements that can be populated and managed dynamically at runtime with programmatically generated data or data provided from an external data source."
-  - text: "Out of the box it can support a variety of data consumer binding targets (UX Targets or Actions that will use data to generate visual elements) that include\u003A"
-  - text: "•  TextMeshPro text"
-  - text: "•  Text stylesheets (for theming)"
-  - text: "•  Sprites (via sprite lookup)"
-  - text: "•  Sprite/Quad (via image fetch and replace)"
-  - text: "•  Lists (prefabs populated with variable data)"
-  - text: "•  Any other consumer that supports or implements the IDataConsumer interface (this could include a ScriptableObject)"
-  - text: "Data can be provided to your data consumers from the following types of data sources\u003A"
-  - text: "•  JSON text (directly or via URL fetch)"
-  - text: "•  Dictionary of variable data elements"
-  - text: "•  Object (Node based structure data)"
-  - text: "•  Reflection (Programmatically accessing any C# object)"
-  - text: "•  Programmatically generated or altered data"
-  - text: "•  Any other source that supports or implements the IDataSource interface"
-  - text: "Creating data consumers is a straightforward process and examples of data sources and data consumers that are used throughout the MSPlayground project can be found in the Assets/MSPlayground/Core/Data asset folder."
-  - text: "The MSPlayground project uses data binding for the following purposes\u003A"
-  - text: "•  Localized Text from the Unity Localization package"
-  - text: "•  Image Sprite - via sprite lookup (using Unity UI Canvas)"
-  - text: "•  Maskable Graphic Colors, Materials"
-  - text: "•  UIThemeProfile [Assets/MSPlayground/Core/UI/UIThemeProfile.cs] scriptable object"
-  - text: "•  RobotSFXTheme [Assets/MSPlayground/Turbines/Scripts/RobotSFXTheme.cs]"
+  - heading: 
+    text: The MRTK data binding framework helps create visual elements that can be
+      populated and managed dynamically at runtime with programmatically generated
+      data or data provided from an external data source.
+    linkText: 
+    url: 
+  - heading: 
+    text: 'Out of the box it can support a variety of data consumer binding targets
+      (UX Targets or Actions that will use data to generate visual elements) that
+      include:'
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  TextMeshPro text"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Text stylesheets (for theming)"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Sprites (via sprite lookup)"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Sprite/Quad (via image fetch and replace)"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Lists (prefabs populated with variable data)"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Any other consumer that supports or implements the IDataConsumer
+      interface (this could include a ScriptableObject)"
+    linkText: 
+    url: 
+  - heading: 
+    text: 'Data can be provided to your data consumers from the following types of
+      data sources:'
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  JSON text (directly or via URL fetch)"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Dictionary of variable data elements"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Object (Node based structure data)"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Reflection (Programmatically accessing any C# object)"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Programmatically generated or altered data"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Any other source that supports or implements the IDataSource interface"
+    linkText: 
+    url: 
+  - heading: 
+    text: Creating data consumers is a straightforward process and examples of data
+      sources and data consumers that are used throughout the MSPlayground project
+      can be found in the Assets/MSPlayground/Core/Data asset folder.
+    linkText: 
+    url: 
+  - heading: 
+    text: 'The MSPlayground project uses data binding for the following purposes:'
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Localized Text from the Unity Localization package"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Image Sprite - via sprite lookup (using Unity UI Canvas)"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  Maskable Graphic Colors, Materials"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  UIThemeProfile [Assets/MSPlayground/Core/UI/UIThemeProfile.cs]
+      scriptable object"
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022  RobotSFXTheme [Assets/MSPlayground/Turbines/Scripts/RobotSFXTheme.cs]"
+    linkText: 
+    url: 
   - heading: 
     text: 
     linkText: Back to the Index
-    url: Assets/Readme/Readme-Index.asset  
+    url: Assets/Readme/Readme-Index.asset
   loadedLayout: 0

@@ -24,8 +24,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 365795897344
-    m_Localized: In this experience you will take on the task to power up Zappy
-      using the Wind Turbines placed around your environment.
+    m_Localized: In this experience you will take on the task to power up Zappy using
+      the Wind Turbines placed around your environment.
     m_Metadata:
       m_Items: []
   - m_Id: 1654835539968
@@ -52,8 +52,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 326956157661184
-    m_Localized: 'Zappy used the name that you entered in the experience hub. This
-      is an example of Data Binding which allows you to construct a data-driven UI.'
+    m_Localized: Zappy used the name that you entered in the experience hub. This
+      is an example of Data Binding which allows you to construct a data-driven UI.
     m_Metadata:
       m_Items: []
   - m_Id: 331965792415744
@@ -191,8 +191,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8600763452518400
-    m_Localized: To manage the power supply, try adjusting the Turbine sliders.
-      Move the sliders until the dials turn green.
+    m_Localized: To manage the power supply, try adjusting the Turbine sliders. Move
+      the sliders until the dials turn green.
     m_Metadata:
       m_Items: []
   - m_Id: 8618763593347072
@@ -227,8 +227,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10076497874415617
-    m_Localized: Surface Magnetism lets you orient and place virtual objects on
-      real-world physical surfaces.
+    m_Localized: Surface Magnetism lets you orient and place virtual objects on real-world
+      physical surfaces.
     m_Metadata:
       m_Items: []
   - m_Id: 10077378065887232

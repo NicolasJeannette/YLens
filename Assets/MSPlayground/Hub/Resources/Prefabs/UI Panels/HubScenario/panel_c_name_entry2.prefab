@@ -89,7 +89,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3650419626171212499, guid: 1d9518d8f090e3d4ea58efc743d3ace8, type: 3}
       propertyPath: m_Size.y
-      value: 72
+      value: 0.00000047683716
       objectReference: {fileID: 0}
     - target: {fileID: 3771313008820602840, guid: 1d9518d8f090e3d4ea58efc743d3ace8, type: 3}
       propertyPath: m_text
@@ -97,11 +97,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4101318428166532765, guid: 1d9518d8f090e3d4ea58efc743d3ace8, type: 3}
       propertyPath: m_Size.x
-      value: 160.5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4101318428166532765, guid: 1d9518d8f090e3d4ea58efc743d3ace8, type: 3}
       propertyPath: m_Size.y
-      value: 56.1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5025309803243373653, guid: 1d9518d8f090e3d4ea58efc743d3ace8, type: 3}
       propertyPath: m_AnchorMax.y
@@ -241,43 +241,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d9518d8f090e3d4ea58efc743d3ace8, type: 3}
---- !u!1 &8046467478734135942 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6114563420185085397, guid: 1d9518d8f090e3d4ea58efc743d3ace8, type: 3}
-  m_PrefabInstance: {fileID: 4283346020702922579}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1092093986213683339 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3771313008820602840, guid: 1d9518d8f090e3d4ea58efc743d3ace8, type: 3}
-  m_PrefabInstance: {fileID: 4283346020702922579}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8046467478734135942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7442149522588964960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8046467478734135942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce736cf4dbf1a3b43a682b47c366425c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _stringReference:
-    m_TableReference:
-      m_TableCollectionName: GUID:ae201deb918a41849a1d22447a0adc19
-    m_TableEntryReference:
-      m_KeyId: 20240043369697283
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-    m_LocalVariables: []
-  _textMeshProComponent: {fileID: 1092093986213683339}
-  references:
-    version: 1

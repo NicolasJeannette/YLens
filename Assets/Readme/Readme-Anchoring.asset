@@ -26,12 +26,11 @@ MonoBehaviour:
     linkText: Reference
     url: https://docs.microsoft.com/en-us/windows/mixed-reality/design/spatial-anchors
   - heading: 
-    text: "In MSPlayground we provide examples of two methods of anchoring: local
-      anchoring using the XRAnchorStore, and Azure Spatial Anchors
-      (ASA) which facilitates sharing across devices.  The default anchoring mechanism
-      in this project is Local Anchoring.  ASA can be enabled in the project by defining
-      the compiler flag ASA_ENABLED and configuring the project to connect to your
-      Azure subscription."
+    text: 'In MSPlayground we provide examples of two methods of anchoring: local
+      anchoring using the XRAnchorStore, and Azure Spatial Anchors (ASA) which facilitates
+      sharing across devices.  The default anchoring mechanism in this project is
+      Local Anchoring.  ASA can be enabled in the project by defining the compiler
+      flag ASA_ENABLED and configuring the project to connect to your Azure subscription.'
     linkText: 
     url: 
   - heading: 
@@ -52,10 +51,11 @@ MonoBehaviour:
     linkText: 
     url: 
   - heading: Local Anchoring
-    text: "The LocalAnchorManager [Assets/MSPlayground/Core/LocalAnchors/LocalAnchorManager.cs] demonstrates an example of saving,
-      detecting, and tracking ARAnchors. ARAnchors can be persisted on a single device
-      via the XRAnchorStore. This allows the application to identify and calculate
-      the same location in the real world across multiple sessions on the same device."
+    text: The LocalAnchorManager [Assets/MSPlayground/Core/LocalAnchors/LocalAnchorManager.cs]
+      demonstrates an example of saving, detecting, and tracking ARAnchors. ARAnchors
+      can be persisted on a single device via the XRAnchorStore. This allows the
+      application to identify and calculate the same location in the real world across
+      multiple sessions on the same device.
     linkText: 
     url: 
   - heading: Azure Spatial Anchors

@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 49975791616
-    m_Localized: Touche ou AirTap pour entrer
+    m_Localized: Toucher ou AirTap pour entrer
     m_Metadata:
       m_Items: []
   - m_Id: 50013540352
@@ -43,6 +43,26 @@ MonoBehaviour:
       Contr\xF4les UX\n\u2022 Contr\xF4les des limites\n\u2022 fl\xE8che directionnelle\n\u2022
       Regarder\n\u2022 Audio spatial\n\u2022 Suivre\n\u2022 Interactions proches
       et lointaines"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96567415834542080
+    m_Localized: "Jeu de tir en premi\xE8re personne."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96568817101176832
+    m_Localized: "Space Invaders s'invite sur Terre ! Incarnez un soldat d\xE9fendant
+      notre ch\xE8re plan\xE8te bleue en \xE9liminant les ennemis qui apparaissent
+      tout autour de vous."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96568893668196352
+    m_Localized: "Space Invaders s'invite sur Terre ! Incarnez un soldat d\xE9fendant
+      notre ch\xE8re plan\xE8te bleue en \xE9liminant les ennemis qui apparaissent
+      tout autour de vous."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96568767553863680
+    m_Localized: Space Invaders
     m_Metadata:
       m_Items: []
   references:

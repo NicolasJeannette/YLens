@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Realistic Lava Egg
   m_Shader: {fileID: 4800000, guid: 51dd305981f3e614c9778ed4f7b95ce9, type: 3}
   m_ShaderKeywords: _EMISSION _NORMALMAP
@@ -140,3 +141,4 @@ Material:
     - _Emission: {r: 1, g: 0.416, b: 0, a: 1}
     - _EmissionColor: {r: 1, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []

@@ -48,8 +48,3 @@ MonoBehaviour:
   Floor: {fileID: 0}
   Ceiling: {fileID: 0}
   _virtualWallPrefab: {fileID: 7296070426112047297, guid: 3150c0c2c9f82024592dcfc462410fa8, type: 3}
-  _ceilingDebugColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.3}
-  _floorDebugColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.3}
-  _wall0DebugColor: {r: 0.5, g: 0, b: 0, a: 0.3}
-  _wall1DebugColor: {r: 0, g: 0.3, b: 0.3, a: 0.3}
-  _platformDebugColor: {r: 0.05937249, g: 0, b: 0.9622642, a: 0.3}

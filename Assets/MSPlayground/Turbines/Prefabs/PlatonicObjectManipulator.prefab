@@ -218,8 +218,6 @@ MonoBehaviour:
   allowSelectByVoice: 0
   speechRecognitionKeyword: select
   voiceRequiresFocus: 1
-  toggleOnRelease: 0
-  canDetoggle: 0
   isToggled:
     active: 0
     onEntered:
@@ -229,6 +227,12 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   onClicked:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 6356446544631578721}
@@ -256,32 +260,6 @@ MonoBehaviour:
         Microsoft.MixedReality.Toolkit.SpatialManipulation
     scaleLogicType:
       reference: Microsoft.MixedReality.Toolkit.SpatialManipulation.ScaleLogic, Microsoft.MixedReality.Toolkit.SpatialManipulation
-  logicTypes:
-    entries:
-    - key: 1
-      value:
-        moveLogicType:
-          reference: Microsoft.MixedReality.Toolkit.CoreUX.UnifiedMoveLogic, Microsoft.MixedReality.Toolkit.UXComponents
-        rotateLogicType:
-          reference: Microsoft.MixedReality.Toolkit.CoreUX.RotateLogic, Microsoft.MixedReality.Toolkit.UXComponents
-        scaleLogicType:
-          reference: Microsoft.MixedReality.Toolkit.CoreUX.ScaleLogic, Microsoft.MixedReality.Toolkit.UXComponents
-    - key: 2
-      value:
-        moveLogicType:
-          reference: Microsoft.MixedReality.Toolkit.CoreUX.UnifiedMoveLogic, Microsoft.MixedReality.Toolkit.UXComponents
-        rotateLogicType:
-          reference: Microsoft.MixedReality.Toolkit.CoreUX.RotateLogic, Microsoft.MixedReality.Toolkit.UXComponents
-        scaleLogicType:
-          reference: Microsoft.MixedReality.Toolkit.CoreUX.ScaleLogic, Microsoft.MixedReality.Toolkit.UXComponents
-    - key: 4
-      value:
-        moveLogicType:
-          reference: Microsoft.MixedReality.Toolkit.CoreUX.UnifiedMoveLogic, Microsoft.MixedReality.Toolkit.UXComponents
-        rotateLogicType:
-          reference: Microsoft.MixedReality.Toolkit.CoreUX.RotateLogic, Microsoft.MixedReality.Toolkit.UXComponents
-        scaleLogicType:
-          reference: Microsoft.MixedReality.Toolkit.CoreUX.ScaleLogic, Microsoft.MixedReality.Toolkit.UXComponents
 --- !u!135 &2835917059739719772
 SphereCollider:
   m_ObjectHideFlags: 0

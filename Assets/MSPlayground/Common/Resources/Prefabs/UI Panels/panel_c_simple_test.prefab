@@ -68,6 +68,7 @@ MonoBehaviour:
   radius: 10
   thickness: 1
   wedges: 8
+  calculateSmoothEdges: 1
 --- !u!1 &4174135012963794943
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +218,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
-  manageChildren: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
+  _manageChildren: 0
 --- !u!1001 &3572165500713687633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -323,7 +327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8510261678218358358, guid: ac3d4f06730b35a4eb024427dcb07a1f, type: 3}
       propertyPath: m_Name
-      value: panel_c_simple
+      value: panel_c_simple_test
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8652067621810633434, guid: ac3d4f06730b35a4eb024427dcb07a1f, type: 3}
@@ -367,11 +371,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
-  dataKeyPath: MatsCanvas.BackPlateMaterial
-  expectedDataType: 0
-  optionalGameObjectNameRegex: 
-  dataConsumerThemeHelper: {fileID: 0}
-  valueToThemeKeypathLookup: []
-  materialLookup: []
-  maskableGraphicsToModify:
-  - {fileID: 6712330780937680861}
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
+  dataBindingProfiles: []
+  _materialLookup: []
+  _maskableGraphicsToModify: []

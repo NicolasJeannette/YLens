@@ -50,7 +50,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1400, y: 263.7, z: 1}
+  m_Size: {x: 0, y: 263.7, z: 1}
   m_Center: {x: 0, y: -131.85, z: 0}
 --- !u!114 &7380715581831240060
 MonoBehaviour:
@@ -238,8 +238,6 @@ MonoBehaviour:
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
   voiceRequiresFocus: 1
-  toggleOnRelease: 1
-  canDetoggle: 1
   isToggled:
     active: 0
     onEntered:
@@ -249,6 +247,12 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   onClicked:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
@@ -276,41 +280,6 @@ MonoBehaviour:
         Microsoft.MixedReality.Toolkit.SpatialManipulation
     scaleLogicType:
       reference: Microsoft.MixedReality.Toolkit.SpatialManipulation.ScaleLogic, Microsoft.MixedReality.Toolkit.SpatialManipulation
-  logicTypes:
-    entries:
-    - key: 1
-      value:
-        moveLogicType:
-          reference: Microsoft.MixedReality.Toolkit.SpatialManipulation.MoveLogic,
-            Microsoft.MixedReality.Toolkit.SpatialManipulation
-        rotateLogicType:
-          reference: Microsoft.MixedReality.Toolkit.SpatialManipulation.RotateLogic,
-            Microsoft.MixedReality.Toolkit.SpatialManipulation
-        scaleLogicType:
-          reference: Microsoft.MixedReality.Toolkit.SpatialManipulation.ScaleLogic,
-            Microsoft.MixedReality.Toolkit.SpatialManipulation
-    - key: 2
-      value:
-        moveLogicType:
-          reference: Microsoft.MixedReality.Toolkit.SpatialManipulation.MoveLogic,
-            Microsoft.MixedReality.Toolkit.SpatialManipulation
-        rotateLogicType:
-          reference: Microsoft.MixedReality.Toolkit.SpatialManipulation.RotateLogic,
-            Microsoft.MixedReality.Toolkit.SpatialManipulation
-        scaleLogicType:
-          reference: Microsoft.MixedReality.Toolkit.SpatialManipulation.ScaleLogic,
-            Microsoft.MixedReality.Toolkit.SpatialManipulation
-    - key: 4
-      value:
-        moveLogicType:
-          reference: Microsoft.MixedReality.Toolkit.SpatialManipulation.MoveLogic,
-            Microsoft.MixedReality.Toolkit.SpatialManipulation
-        rotateLogicType:
-          reference: Microsoft.MixedReality.Toolkit.SpatialManipulation.RotateLogic,
-            Microsoft.MixedReality.Toolkit.SpatialManipulation
-        scaleLogicType:
-          reference: Microsoft.MixedReality.Toolkit.SpatialManipulation.ScaleLogic,
-            Microsoft.MixedReality.Toolkit.SpatialManipulation
 --- !u!114 &877945625217463444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,6 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e13188787cfbdc945b510e90e9251420, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicFitting: 1
   thisCollider: {fileID: 5138588463055761874}
-  rectTransform: {fileID: 2349234893095865326}
+  attachedRectTransform: {fileID: 2349234893095865326}
+  padding: {x: 0, y: 0}
+  forceUpdateEveryFrame: 0

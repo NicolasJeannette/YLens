@@ -307,3 +307,4 @@ MonoBehaviour:
   radius: 10
   thickness: 1
   wedges: 8
+  calculateSmoothEdges: 1

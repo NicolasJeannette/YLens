@@ -961,6 +961,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
+    m_PersistentCalls:
+      m_Calls: []
   smoothSelectedness: 1
   distanceSpaceMode: 1
   startPushPlane: -0.003838122
@@ -1044,6 +1050,8 @@ MonoBehaviour:
         clip: {fileID: 7400000, guid: c2cf5b5995f793f4d85cb696ef43cbb5, type: 2}
         speed: 1
         playbackMode: 0
+        weightMode: 0
+        transitionDuration: 0
     00000003:
       type: {class: AnimationEffect, ns: Microsoft.MixedReality.Toolkit.UX, asm: Microsoft.MixedReality.Toolkit.UXCore}
       data:
@@ -1051,6 +1059,8 @@ MonoBehaviour:
         clip: {fileID: 7400000, guid: 4601d63e0c1b50442af76f234651f8a7, type: 2}
         speed: 1
         playbackMode: 0
+        weightMode: 0
+        transitionDuration: 0
     00000004:
       type: {class: AnimationEffect, ns: Microsoft.MixedReality.Toolkit.UX, asm: Microsoft.MixedReality.Toolkit.UXCore}
       data:
@@ -1058,6 +1068,8 @@ MonoBehaviour:
         clip: {fileID: 7400000, guid: df1fdf2e763ac6d4281d5894f5fab7e4, type: 2}
         speed: 1
         playbackMode: 0
+        weightMode: 0
+        transitionDuration: 0
     00000005:
       type: {class: AnimationEffect, ns: Microsoft.MixedReality.Toolkit.UX, asm: Microsoft.MixedReality.Toolkit.UXCore}
       data:
@@ -1065,6 +1077,8 @@ MonoBehaviour:
         clip: {fileID: 7400000, guid: 4f51b3f10e946db4fb9e1d234e168a43, type: 2}
         speed: 1
         playbackMode: 1
+        weightMode: 0
+        transitionDuration: 0
     00000006:
       type: {class: SetTargetsActiveEffect, ns: Microsoft.MixedReality.Toolkit.UX, asm: Microsoft.MixedReality.Toolkit.UXCore}
       data:
@@ -2574,6 +2588,7 @@ MonoBehaviour:
   proximityType: 3
   executionOrder: 0
   faceAway: 1
+  gravityAlign: 0
 --- !u!114 &7639422124178229856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2755,6 +2770,12 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   onClicked:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 1774721399294812618}
@@ -3173,6 +3194,7 @@ MonoBehaviour:
   radius: 10
   thickness: 1
   wedges: 8
+  calculateSmoothEdges: 1
 --- !u!223 &4193115569757070437
 Canvas:
   m_ObjectHideFlags: 0
@@ -3565,6 +3587,12 @@ MonoBehaviour:
   onClicked:
     m_PersistentCalls:
       m_Calls: []
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
+    m_PersistentCalls:
+      m_Calls: []
   hostTransform: {fileID: 3365801065852851590}
   allowedManipulations: 1
   allowedInteractionTypes: -2147483641
@@ -3615,10 +3643,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e13188787cfbdc945b510e90e9251420, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicFitting: 1
   thisCollider: {fileID: 164602315161263469}
-  rectTransform: {fileID: 5065400707982903838}
+  attachedRectTransform: {fileID: 5065400707982903838}
   padding: {x: 0, y: 0}
+  forceUpdateEveryFrame: 0
 --- !u!1 &5158976974523317887
 GameObject:
   m_ObjectHideFlags: 0
@@ -5222,6 +5250,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisabled:
+    m_PersistentCalls:
+      m_Calls: []
   smoothSelectedness: 1
   distanceSpaceMode: 1
   startPushPlane: -0.003838122
@@ -5305,6 +5339,8 @@ MonoBehaviour:
         clip: {fileID: 7400000, guid: c2cf5b5995f793f4d85cb696ef43cbb5, type: 2}
         speed: 1
         playbackMode: 0
+        weightMode: 0
+        transitionDuration: 0
     00000003:
       type: {class: AnimationEffect, ns: Microsoft.MixedReality.Toolkit.UX, asm: Microsoft.MixedReality.Toolkit.UXCore}
       data:
@@ -5312,6 +5348,8 @@ MonoBehaviour:
         clip: {fileID: 7400000, guid: 4601d63e0c1b50442af76f234651f8a7, type: 2}
         speed: 1
         playbackMode: 0
+        weightMode: 0
+        transitionDuration: 0
     00000004:
       type: {class: AnimationEffect, ns: Microsoft.MixedReality.Toolkit.UX, asm: Microsoft.MixedReality.Toolkit.UXCore}
       data:
@@ -5319,6 +5357,8 @@ MonoBehaviour:
         clip: {fileID: 7400000, guid: df1fdf2e763ac6d4281d5894f5fab7e4, type: 2}
         speed: 1
         playbackMode: 0
+        weightMode: 0
+        transitionDuration: 0
     00000005:
       type: {class: AnimationEffect, ns: Microsoft.MixedReality.Toolkit.UX, asm: Microsoft.MixedReality.Toolkit.UXCore}
       data:
@@ -5326,6 +5366,8 @@ MonoBehaviour:
         clip: {fileID: 7400000, guid: 4f51b3f10e946db4fb9e1d234e168a43, type: 2}
         speed: 1
         playbackMode: 1
+        weightMode: 0
+        transitionDuration: 0
     00000006:
       type: {class: SetTargetsActiveEffect, ns: Microsoft.MixedReality.Toolkit.UX, asm: Microsoft.MixedReality.Toolkit.UXCore}
       data:

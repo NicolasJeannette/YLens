@@ -243,6 +243,7 @@ MonoBehaviour:
   thisCollider: {fileID: 1016101717}
   attachedRectTransform: {fileID: 1016101713}
   padding: {x: 0, y: 0}
+  forceUpdateEveryFrame: 0
 --- !u!114 &1016101715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -854,6 +855,7 @@ MonoBehaviour:
   radius: 20.97
   thickness: 1
   wedges: 8
+  calculateSmoothEdges: 1
 --- !u!1 &4884106348500883364
 GameObject:
   m_ObjectHideFlags: 0

@@ -350,11 +350,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8551681298796484787, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_Size.x
-      value: 191
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8551681298796484787, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_Size.y
-      value: 66
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8795818724812878326, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_text
@@ -696,11 +696,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8551681298796484787, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_Size.x
-      value: 191
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8551681298796484787, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_Size.y
-      value: 66
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8795818724812878326, guid: d5c6db9fe2297bf438a13008460cc8de, type: 3}
       propertyPath: m_text
@@ -1080,6 +1080,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   dataBindingProfiles:
   - dataKeyPath: ButtonColor_Yes
     themeKeyPath: 
@@ -1118,6 +1121,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   dataBindingProfiles:
   - dataKeyPath: ButtonColor_No
     themeKeyPath: 
@@ -1142,6 +1148,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSourceTypes: []
   ignoreKeyPathPrefix: 0
+  includeInactiveComponentsInChildren: 0
+  isFixedHierarchyWillUseCachedValues: 1
+  autoAttachAndDetach: 1
   _manageChildren: 1
 --- !u!114 &8808319066731644373
 MonoBehaviour:

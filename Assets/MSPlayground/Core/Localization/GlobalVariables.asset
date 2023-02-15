@@ -21,4 +21,4 @@ MonoBehaviour:
     00000000:
       type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
       data:
-        m_Value: User
+        m_Value: HF

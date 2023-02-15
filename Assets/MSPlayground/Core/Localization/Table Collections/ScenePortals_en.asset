@@ -51,5 +51,9 @@ MonoBehaviour:
       Audio\n\u2022 Follow UI\n\u2022 Near and Far Interactions"
     m_Metadata:
       m_Items: []
+  - m_Id: 96567415834542080
+    m_Localized: Shooter game in first person.
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

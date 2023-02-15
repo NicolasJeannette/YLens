@@ -154,6 +154,8 @@ MonoBehaviour:
   _positionCount: 10
   _lineRenderer: {fileID: 6190832930946280943}
   _start: {fileID: 0}
-  _controlPoint: {fileID: 0}
+  _controlPoint1: {fileID: 0}
+  _controlPoint2: {fileID: 0}
   _end: {fileID: 0}
   _executeOnUpdate: 1
+  _vrLineMaterial: {fileID: 0}

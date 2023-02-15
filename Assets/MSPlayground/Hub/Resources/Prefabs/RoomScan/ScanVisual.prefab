@@ -184,7 +184,6 @@ MonoBehaviour:
   _animator: {fileID: 3571798444335112064}
   _fillChangeTime: 0.2
   _completeAnimationTrigger: Complete
-  _resetAnimationTrigger: Reset
   _completeParticles: {fileID: 3571798445062784659}
 --- !u!1 &3571798444681425281
 GameObject:
