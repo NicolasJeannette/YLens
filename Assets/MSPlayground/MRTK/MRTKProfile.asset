@@ -21,6 +21,10 @@ MonoBehaviour:
   subsystemConfigs:
     entries:
     - key:
+        reference: Microsoft.MixedReality.Toolkit.Accessibility.MRTKAccessibilitySubsystem,
+          Microsoft.MixedReality.Toolkit.Accessibility
+      value: {fileID: 0}
+    - key:
         reference: Microsoft.MixedReality.Toolkit.Input.OpenXRHandsSubsystem, Microsoft.MixedReality.Toolkit.Input
       value: {fileID: 0}
     - key:
