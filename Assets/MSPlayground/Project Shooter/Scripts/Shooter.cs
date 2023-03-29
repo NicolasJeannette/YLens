@@ -15,6 +15,7 @@ public class Shooter : MonoBehaviour
     public GameObject bullet;
     public float timeBeforeFire = .5f;
     public float DefaultTimeBeforeFire = .5f;
+    public int bulletLoader = 20;
     bool handIsValid;
     [SerializeField]
     [Tooltip("The hand on which to track the joint.")]

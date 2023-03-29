@@ -24,12 +24,25 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SetUnactive(other);
+        SetUnactiveOnEnemyTrigger(other);
     }
 
-    private void SetUnactive(Collider other)
+    private void OnTriggerExit(Collider other)
+    {
+        SetUnactiveOnExit(other);
+    }
+
+    private void SetUnactiveOnEnemyTrigger(Collider other)
     {
         if (other.tag == "Enemy")
+        {
+            gameObject.SetActive(false);
+        }
+    }
+
+    private void SetUnactiveOnExit(Collider other)
+    {
+        if (other.tag == "Game area")
         {
             gameObject.SetActive(false);
         }

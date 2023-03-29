@@ -9,6 +9,7 @@ TagManager:
   - Turbine
   - Enemy
   - Bullet
+  - Game area
   layers:
   - Default
   - TransparentFX
