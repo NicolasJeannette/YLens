@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -223,13 +223,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: QRCodePanel
       objectReference: {fileID: 0}
+    - target: {fileID: 1026172735573124149, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eef01bf9a613a2d4fba8bc126b27ca78, type: 2}
     - target: {fileID: 1026172736702460569, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1026172736702460574, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1026172737123323978, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
       propertyPath: m_Mesh
@@ -242,6 +246,10 @@ PrefabInstance:
     - target: {fileID: 1026172737124064626, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026172737124064639, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
+      propertyPath: m_text
+      value: "Presser le bouton pour d\xE9marrer le scan du QR Code"
       objectReference: {fileID: 0}
     - target: {fileID: 1026172737124064639, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
       propertyPath: m_textAlignment
@@ -301,7 +309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1347120971991464009, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1347120971991464010, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
       propertyPath: m_Mesh
@@ -357,7 +365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4946922686680954394, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4946922687131569635, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
       propertyPath: m_textAlignment
@@ -381,9 +389,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4946922687673945665, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1026172737124064637, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7100e7e980069704aa3b90b6f9fe23df, type: 3}
 --- !u!114 &29171468 stripped
 MonoBehaviour:
