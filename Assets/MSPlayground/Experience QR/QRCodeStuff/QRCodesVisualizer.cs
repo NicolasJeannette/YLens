@@ -17,6 +17,9 @@ namespace QRTracking
         private System.Collections.Generic.SortedDictionary<System.Guid, GameObject> qrCodesObjectsList;
         private bool clearExisting = false;
 
+        public GameObject DragonInferno;
+        public GameObject DragonFire;
+
         struct ActionData
         {
             public enum Type
@@ -111,6 +114,17 @@ namespace QRTracking
                         qrCodeObject.GetComponent<QRCode>().qrCode = action.qrCode;
                         LatestQRCodeDetails.text = action.qrCode.Data; //updating to show in our QRCodePanel the data of latest QR code scanned
                         qrCodesObjectsList.Add(action.qrCode.Id, qrCodeObject); //QRcode added
+
+                        // Instanciation Prefab Générer
+                        switch (LatestQRCodeDetails.text)
+                        {
+                            case "Dragon Inferno":
+                                Instantiate(DragonInferno, transform.position, transform.rotation);
+                                break;
+                            case "Dragon Fire":
+                                Instantiate(DragonFire, transform.position, transform.rotation);
+                                break;
+                        }
                     }
                     else if (action.type == ActionData.Type.Updated)
                     {
