@@ -1,23 +1,17 @@
-using Microsoft.MixedReality.Toolkit;
-using Microsoft.MixedReality.Toolkit.Input;
 using Microsoft.MixedReality.Toolkit.Subsystems;
-using Microsoft.MixedReality.Toolkit.Utilities;
-using System;
+using Microsoft.MixedReality.Toolkit;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
-using Unity.XR.CoreUtils;
-using UnityEditor.Localization.Addressables;
 using UnityEngine;
 using UnityEngine.XR;
+using TMPro;
 
-public class Shooter : MonoBehaviour
+public class Reload : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public GameObject bullet;
-    public float timeBeforeFire = .5f;
-    public float DefaultTimeBeforeFire = .5f;
-    public Reload reloader;
+    public int bulletLoader = 20;
+    public int defaultBulletLoader = 20;
+    public bool leftHandChecked;
+    public TextMeshProUGUI UIloaderContainer;
     bool handIsValid;
     public TrackedHandJoint trackedJoint = TrackedHandJoint.IndexTip;
     [SerializeField]
@@ -67,23 +61,11 @@ public class Shooter : MonoBehaviour
         if (node.HasValue && HandsAggregator != null && HandsAggregator.TryGetJoint(joint, node.Value, out var jointPose))
         {
             transform.SetPositionAndRotation(jointPose.Position, jointPose.Rotation);
-            if (timeBeforeFire > 0)
             {
-                timeBeforeFire -= Time.deltaTime;
-            }
-            else if (reloader.bulletLoader > 0 && !reloader.leftHandChecked)
-            {
-                Debug.Log("Poogie fired a bullet");
-                GameObject bullet = ObjectPooling.SharedInstance.GetPooledObject();
-                if (bullet != null && checkHandInput())
+                if (checkHandInput())
                 {
-                    bullet.transform.up = -transform.up;
-                    bullet.transform.position = transform.position;
-                    reloader.bulletLoader--;
-                    bullet.SetActive(true);
+                    bulletLoader = defaultBulletLoader;
                 }
-
-                timeBeforeFire = DefaultTimeBeforeFire;
             }
         }
         else
@@ -92,12 +74,14 @@ public class Shooter : MonoBehaviour
             transform.localPosition = Vector3.zero;
             transform.localRotation = Quaternion.identity;
         }
-        //UIloaderContainer.text = bulletLoader.ToString();
+        UIloaderContainer.text = "Munitions restantes : " + bulletLoader.ToString();
     }
-
     bool checkHandInput()
     {
-        handIsValid = handsAggregator.TryGetPalmFacingAway(UnityEngine.XR.XRNode.RightHand, out bool isPalmFacingAway);
+        /*        HandJointPose pose;
+                leftHandIsValid = handsAggregator.TryGetJoint(trackedJoint, XRNode.LeftHand, out pose);*/
+        handIsValid = handsAggregator.TryGetPalmFacingAway(XRNode.LeftHand, out bool isPalmFacingAway);
+        leftHandChecked = handIsValid;
         return handIsValid;
     }
 }
