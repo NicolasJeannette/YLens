@@ -1,3 +1,4 @@
+using Microsoft.MixedReality.GraphicsTools;
 using Microsoft.MixedReality.Toolkit;
 using Microsoft.MixedReality.Toolkit.Input;
 using Microsoft.MixedReality.Toolkit.Subsystems;
@@ -11,6 +12,8 @@ using UnityEngine.XR;
 public class Bullet : MonoBehaviour
 {
     public float speed = 1;
+ /*   public GameObject Player;
+    public float dist = 0;*/
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +23,7 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         transform.position += transform.up * Time.deltaTime * speed;
+        //dist = Vector3.Distance(Player.transform.position, transform.position);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -27,22 +31,9 @@ public class Bullet : MonoBehaviour
         SetUnactiveOnEnemyTrigger(other);
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        SetUnactiveOnExit(other);
-    }
-
     private void SetUnactiveOnEnemyTrigger(Collider other)
     {
         if (other.tag == "Enemy")
-        {
-            gameObject.SetActive(false);
-        }
-    }
-
-    private void SetUnactiveOnExit(Collider other)
-    {
-        if (other.tag == "Game area")
         {
             gameObject.SetActive(false);
         }
