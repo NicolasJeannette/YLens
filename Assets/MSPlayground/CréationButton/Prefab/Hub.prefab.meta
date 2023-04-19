@@ -1,8 +1,6 @@
 fileFormatVersion: 2
-guid: bdf9fd42c6665a045bf5d894cf016f5a
-labels:
-- AllCreature
-DefaultImporter:
+guid: 94a503eef978b564bb3aee1c2886d7fc
+PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
