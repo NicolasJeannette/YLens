@@ -17,7 +17,8 @@ public class Shooter : MonoBehaviour
     public GameObject bullet;
     public float timeBeforeFire = .5f;
     public float DefaultTimeBeforeFire = .5f;
-    public Reload reloader;
+    public GameObject reloader;
+    private Reload reload;
     bool handIsValid;
     public TrackedHandJoint trackedJoint = TrackedHandJoint.IndexTip;
     [SerializeField]
@@ -57,7 +58,7 @@ public class Shooter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        reload = reloader.GetComponent<Reload>();
     }
 
     // Update is called once per frame
@@ -71,7 +72,7 @@ public class Shooter : MonoBehaviour
             {
                 timeBeforeFire -= Time.deltaTime;
             }
-            else if (reloader.bulletLoader > 0 && !reloader.leftHandChecked)
+            else if (reload.bulletLoader > 0 && !reload.leftHandChecked)
             {
                 Debug.Log("Poogie fired a bullet");
                 GameObject bullet = ObjectPooling.SharedInstance.GetPooledObject();
@@ -79,7 +80,7 @@ public class Shooter : MonoBehaviour
                 {
                     bullet.transform.up = -transform.up;
                     bullet.transform.position = transform.position;
-                    reloader.bulletLoader--;
+                    reload.bulletLoader--;
                     bullet.SetActive(true);
                 }
 
