@@ -118,10 +118,10 @@ namespace MSPlayground.Scenarios.Hub
             // place portal along longest wall
             Transform longestWall = VirtualRoom.Walls[0].transform;
             _turbinePortal.transform.SetPositionAndRotation(
-                longestWall.transform.position - longestWall.transform.right * 0.25f - longestWall.transform.forward * 0.10f,
+                longestWall.transform.position - longestWall.transform.right * 0f - longestWall.transform.forward * 0.10f,
                 longestWall.transform.rotation);
             _exper1Portal.transform.SetPositionAndRotation(
-                longestWall.transform.position - longestWall.transform.right * 0.5f - longestWall.transform.forward * 0.25f,
+                longestWall.transform.position - longestWall.transform.right * 1f - longestWall.transform.forward * 0.30f,
                 longestWall.transform.rotation);
 #endif
         }
