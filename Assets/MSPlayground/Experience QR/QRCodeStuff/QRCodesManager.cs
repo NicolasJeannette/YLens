@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections;
-
 using System.Collections.Generic;
-
 using UnityEngine;
-
 using Microsoft.MixedReality.QR;
+
+#if WINDOWS_UWP
+using Windows.Perception.Spatial.Preview;
+using Windows.Perception.Spatial;
+#endif
 
 namespace QRTracking
 {
@@ -80,7 +82,8 @@ namespace QRTracking
         async protected virtual void Start()
         {
             Debug.Log("In Start() of QRCodesManager");
-            IsSupported = QRCodeWatcher.IsSupported(); //Gets whether QR code detection is supported on the current device.
+            /* IsSupported = QRCodeWatcher.IsSupported();*///Gets whether QR code detection is supported on the current device.
+            IsSupported = true;
             capabilityTask = QRCodeWatcher.RequestAccessAsync(); //Request user consent before using QR code detection.
             accessStatus = await capabilityTask;
             capabilityInitialized = true;
