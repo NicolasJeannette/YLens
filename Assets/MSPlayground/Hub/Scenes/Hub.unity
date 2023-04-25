@@ -449,7 +449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8186830247826105480, guid: 5ab8aef109a9b924a954643f881ef8fb, type: 3}
       propertyPath: _targetScene
-      value: Experience 1
+      value: ExperienceQR
       objectReference: {fileID: 0}
     - target: {fileID: 8186830247826105481, guid: 5ab8aef109a9b924a954643f881ef8fb, type: 3}
       propertyPath: m_Name

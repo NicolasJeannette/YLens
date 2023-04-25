@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/MSPlayground/Hub/Scenes/HubVREnvironment.unity
     guid: 77080f5c6fd21cc4e9de94ae964710d5
   - enabled: 1
-    path: Assets/MSPlayground/Experience 1/Experience 1.unity
+    path: Assets/MSPlayground/ExperienceQR/ExperienceQR.unity
     guid: c42ea7622769318438c0a721f0774bb2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 456a6f0cf8e63ea4ebcb18ae6eda27d2, type: 2}

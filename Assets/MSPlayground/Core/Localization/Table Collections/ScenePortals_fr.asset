@@ -45,5 +45,19 @@ MonoBehaviour:
       et lointaines"
     m_Metadata:
       m_Items: []
+  - m_Id: 129261269712035840
+    m_Localized: "Exp\xE9rience Scanner QR Code"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129261322245693440
+    m_Localized: "\u2022 Apparition de monstre\n\u2022 Lecture QR Code\n\u2022 Lecture
+      Code Barre\n\u2022 Ancres spatiales\n\u2022 Interactions proches et lointaines"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129261416776916992
+    m_Localized: "\u2022 Apparition de monstre\n\u2022 Lecture QR Code\n\u2022 Lecture
+      Code Barre\n\u2022 Ancres spatiales\n\u2022 Interactions proches et lointaines"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
