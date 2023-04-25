@@ -84,6 +84,7 @@ namespace QRTracking
             capabilityTask = QRCodeWatcher.RequestAccessAsync(); //Request user consent before using QR code detection.
             accessStatus = await capabilityTask;
             capabilityInitialized = true;
+            Debug.Log(IsSupported);
         }
 
         private void SetupQRTracking()
