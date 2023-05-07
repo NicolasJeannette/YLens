@@ -66,7 +66,7 @@ MonoBehaviour:
   - m_Id: 133561396976001024
     m_Localized: "Space Invaders s'invite sur Terre !\nIncarnez un soldat devant
       prot\xE9ger notre plan\xE8te bleu de l'envahisseur extraterrestre.\n\nNe laissez
-      aucun extraterrestre vous atteindre sinon la plan\xE8te succombera."
+      aucun extraterrestre vous atteindre. sinon la plan\xE8te succombera."
     m_Metadata:
       m_Items: []
   - m_Id: 133561470044971008
