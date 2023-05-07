@@ -13,6 +13,11 @@ using UnityEngine.XR;
 
 public class Shooter : MonoBehaviour
 {
+    // --- Audio ---
+    public AudioClip GunShotClip;
+    public AudioSource source;
+    public Vector2 audioPitch = new Vector2(.9f, 1.1f);
+
     // Start is called before the first frame update
     public GameObject bullet;
     public float timeBeforeFire = .5f;
@@ -83,6 +88,35 @@ public class Shooter : MonoBehaviour
                     bullet.transform.position = transform.position;
                     reload.bulletLoader--;
                     bullet.SetActive(true);
+
+                    // --- Handle Audio ---
+                    if (source != null)
+                    {
+                        // --- Sometimes the source is not attached to the weapon for easy instantiation on quick firing weapons like machineguns, 
+                        // so that each shot gets its own audio source, but sometimes it's fine to use just 1 source. We don't want to instantiate 
+                        // the parent gameobject or the program will get stuck in a loop, so we check to see if the source is a child object ---
+                        if (source.transform.IsChildOf(transform))
+                        {
+                            source.Play();
+                        }
+                        else
+                        {
+                            // --- Instantiate prefab for audio, delete after a few seconds ---
+                            AudioSource newAS = Instantiate(source);
+                            if ((newAS = Instantiate(source)) != null && newAS.outputAudioMixerGroup != null && newAS.outputAudioMixerGroup.audioMixer != null)
+                            {
+                                // --- Change pitch to give variation to repeated shots ---
+                                newAS.outputAudioMixerGroup.audioMixer.SetFloat("Pitch", UnityEngine.Random.Range(audioPitch.x, audioPitch.y));
+                                newAS.pitch = UnityEngine.Random.Range(audioPitch.x, audioPitch.y);
+
+                                // --- Play the gunshot sound ---
+                                newAS.PlayOneShot(GunShotClip);
+
+                                // --- Remove after a few seconds. Test script only. When using in project I recommend using an object pool ---
+                                Destroy(newAS.gameObject, 4);
+                            }
+                        }
+                    }
                 }
 
                 timeBeforeFire = DefaultTimeBeforeFire;
