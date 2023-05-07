@@ -21,11 +21,11 @@ EditorBuildSettings:
     path: Assets/MSPlayground/Hub/Scenes/HubVREnvironment.unity
     guid: 77080f5c6fd21cc4e9de94ae964710d5
   - enabled: 1
-    path: Assets/MSPlayground/ExperienceQR/ExperienceQR.unity
-    guid: c42ea7622769318438c0a721f0774bb2
-  - enabled: 1
     path: Assets/MSPlayground/Project Shooter/Shooter.unity
     guid: 7d506be5e43dda94fb92fd8b5e4c76b3
+  - enabled: 1
+    path: Assets/MSPlayground/Experience QR/QR Code Monster.unity
+    guid: da2bc8b2f6ac30944ab7baeff52a2e2f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 456a6f0cf8e63ea4ebcb18ae6eda27d2, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: aed4a7063a326f84aad92d35982217d6, type: 2}

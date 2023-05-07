@@ -340,7 +340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1011552054}
   m_Layer: 0
-  m_Name: Experience1ScenePortal
+  m_Name: ExperienceQR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -450,7 +450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8186830247826105480, guid: 5ab8aef109a9b924a954643f881ef8fb, type: 3}
       propertyPath: _targetScene
-      value: ExperienceQR
+      value: QR Code Monster
       objectReference: {fileID: 0}
     - target: {fileID: 8186830247826105481, guid: 5ab8aef109a9b924a954643f881ef8fb, type: 3}
       propertyPath: m_Name
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   _vrEnvironmentScene: HubVREnvironment
   _rescanScenario: {fileID: 4900715445465498086}
   _turbinePortal: {fileID: 354796057}
-  _exper1Portal: {fileID: 1011552053}
+  _qrPortal: {fileID: 1011552053}
   _shooterPortal: {fileID: 1902397010}
 --- !u!1 &4900715445624535980
 GameObject:
