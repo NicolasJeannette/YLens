@@ -24,6 +24,7 @@ public class Shooter : MonoBehaviour
     [SerializeField]
     [Tooltip("The hand on which to track the joint.")]
     private Handedness hand;
+    private XRNode? node;
 
     /// <summary>
     /// The hand on which to track the joint.
@@ -59,12 +60,12 @@ public class Shooter : MonoBehaviour
     void Start()
     {
         reload = reloader.GetComponent<Reload>();
+        node = Hand.ToXRNode();
     }
 
     // Update is called once per frame
     void Update()
     {
-        XRNode? node = Hand.ToXRNode();
         if (node.HasValue && HandsAggregator != null && HandsAggregator.TryGetJoint(joint, node.Value, out var jointPose))
         {
             transform.SetPositionAndRotation(jointPose.Position, jointPose.Rotation);
