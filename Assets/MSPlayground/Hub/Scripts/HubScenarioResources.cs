@@ -36,6 +36,7 @@ namespace MSPlayground.Scenarios.Hub
         [SerializeField] private HubScenario_Base _rescanScenario;
         [SerializeField] private GameObject _turbinePortal;
         [SerializeField] private GameObject _exper1Portal;
+        [SerializeField] private GameObject _shooterPortal;
         AudioSource _asaAudioSource;
         
         private GameObject _quitAppPopup = null;
@@ -118,11 +119,14 @@ namespace MSPlayground.Scenarios.Hub
             // place portal along longest wall
             Transform longestWall = VirtualRoom.Walls[0].transform;
             _turbinePortal.transform.SetPositionAndRotation(
-                longestWall.transform.position - longestWall.transform.right * 0f - longestWall.transform.forward * 0.10f,
+                longestWall.transform.position - longestWall.transform.right * 0.25f - longestWall.transform.forward * 0.10f,
                 longestWall.transform.rotation);
             _exper1Portal.transform.SetPositionAndRotation(
-                longestWall.transform.position - longestWall.transform.right * 1f - longestWall.transform.forward * 0.30f,
+                longestWall.transform.position - longestWall.transform.right * 0.7f - longestWall.transform.forward * 0.25f,
                 longestWall.transform.rotation);
+            _shooterPortal.transform.SetPositionAndRotation(
+               longestWall.transform.position - longestWall.transform.right * -0.25f - longestWall.transform.forward * 0.10f,
+               longestWall.transform.rotation);
 #endif
         }
 
@@ -130,6 +134,7 @@ namespace MSPlayground.Scenarios.Hub
         {
             _turbinePortal.transform.SetPositionAndRotation(vrRoom.TurbinesPortal.transform.position, vrRoom.TurbinesPortal.transform.rotation);
             _exper1Portal.transform.SetPositionAndRotation(vrRoom.TurbinesPortal.transform.position, vrRoom.TurbinesPortal.transform.rotation);
+            _shooterPortal.transform.SetPositionAndRotation(vrRoom.TurbinesPortal.transform.position, vrRoom.TurbinesPortal.transform.rotation);
         }
 
         public GameObject ShowDialog(string panelId, bool rotateToCamera = false)
