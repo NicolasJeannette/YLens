@@ -56,7 +56,7 @@ public class Shooter : MonoBehaviour
         }
     }
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         reload = reloader.GetComponent<Reload>();
     }
