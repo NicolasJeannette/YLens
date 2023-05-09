@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/MSPlayground/Project Shooter/Prefabs.meta
 guid: f6deb6fa4c48b774ca999236980a0931
 folderAsset: yes
+========
+guid: 52748c438f56d2541be849f8f9e9d595
+>>>>>>>> main:Assets/Malbers Animations/Common/Shaders/URP_Malbers Shaders 2021.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

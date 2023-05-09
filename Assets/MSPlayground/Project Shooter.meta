@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/MSPlayground/Project Shooter.meta
 guid: a768f53c108a00341b0457ff045a83c1
 folderAsset: yes
+========
+guid: d06a80623c2f3764e9eea49231edd23e
+>>>>>>>> main:Assets/Malbers Animations/Common/Shaders/URP_Malbers Shaders 2020.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

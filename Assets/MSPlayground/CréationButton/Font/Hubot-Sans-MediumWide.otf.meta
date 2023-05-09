@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 24adf96830344b444871b746283ede7f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hubot-Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 222af14e15902a441a8e5a8d99c13161, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

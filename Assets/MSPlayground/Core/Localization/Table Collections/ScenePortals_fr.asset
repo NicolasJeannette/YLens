@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 49975791616
-    m_Localized: Toucher ou AirTap pour entrer
+    m_Localized: Touche ou AirTap pour entrer
     m_Metadata:
       m_Items: []
   - m_Id: 50013540352
@@ -45,24 +45,34 @@ MonoBehaviour:
       et lointaines"
     m_Metadata:
       m_Items: []
-  - m_Id: 96567415834542080
-    m_Localized: "Jeu de tir en premi\xE8re personne."
+  - m_Id: 129261269712035840
+    m_Localized: "Exp\xE9rience Scanner QR Code"
     m_Metadata:
       m_Items: []
-  - m_Id: 96568817101176832
-    m_Localized: "Space Invaders s'invite sur Terre ! Incarnez un soldat d\xE9fendant
-      notre ch\xE8re plan\xE8te bleue en \xE9liminant les ennemis qui apparaissent
-      tout autour de vous."
+  - m_Id: 129261322245693440
+    m_Localized: "\u2022 Apparition de monstre\n\u2022 Lecture QR Code\n\u2022 Lecture
+      Code Barre\n\u2022 Ancres spatiales\n\u2022 Interactions proches et lointaines"
     m_Metadata:
       m_Items: []
-  - m_Id: 96568893668196352
-    m_Localized: "Space Invaders s'invite sur Terre ! Incarnez un soldat d\xE9fendant
-      notre ch\xE8re plan\xE8te bleue en \xE9liminant les ennemis qui apparaissent
-      tout autour de vous."
+  - m_Id: 129261416776916992
+    m_Localized: "\u2022 Apparition de monstre\n\u2022 Lecture QR Code\n\u2022 Lecture
+      Code Barre\n\u2022 Ancres spatiales\n\u2022 Interactions proches et lointaines"
     m_Metadata:
       m_Items: []
-  - m_Id: 96568767553863680
-    m_Localized: Space Invaders
+  - m_Id: 133561315258376192
+    m_Localized: 'Space Invaders (Experience Tir) '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133561396976001024
+    m_Localized: "Space Invaders s'invite sur Terre !\nIncarnez un soldat devant
+      prot\xE9ger notre plan\xE8te bleu de l'envahisseur extraterrestre.\n\nNe laissez
+      aucun extraterrestre vous atteindre. sinon la plan\xE8te succombera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133561470044971008
+    m_Localized: "Incarnez un soldat devant prot\xE9ger notre plan\xE8te bleu de
+      l'envahisseur extraterrestre.\n\nNe laissez aucun extraterrestre vous atteindre
+      sinon la plan\xE8te succombera."
     m_Metadata:
       m_Items: []
   references:
